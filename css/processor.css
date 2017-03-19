@@ -43,7 +43,6 @@ header .promo {
   margin-top: 15px;
   background-color: #fff;
   text-align: center;
-  overflow: hidden;
 }
 
 #form .container .row {
@@ -240,4 +239,73 @@ header .promo.thank_you {
 
 .sec-2,.sec-3,.sec-4,.sec-5,.sec-6,.sec-7{
   display:none;
+}
+
+#states{
+  float: left;
+  position: relative;
+}
+
+#states p ,.pwarning p{
+  position: absolute;
+  bottom: -32px;
+  left: 0;
+  color: #F04040 !important;
+  display: none;
+}
+
+#states button{
+  width: 320px;
+  text-align: left;
+}
+
+
+#states .fa-angle-down{
+  float: right;
+}
+
+#states ul{
+  max-height: 300px;
+  overflow-y: auto;
+  width: 320px;
+  padding: 0;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#states li{
+  padding: 5px;
+}
+
+#states li:hover {
+  background: #00c3f3;
+  background: -webkit-linear-gradient(top, #00c3f3 0%, #00b0ee 100%);
+  background: linear-gradient(to bottom, #00c3f3 0%, #00b0ee 100%);
+  color:#FFFFFF;
+}
+
+#states button{
+  border-radius: 2px;
+  background: #00c3f3;
+  background: -webkit-linear-gradient(top, #00c3f3 0%, #00b0ee 100%);
+  background: linear-gradient(to bottom, #00c3f3 0%, #00b0ee 100%);
+  padding: 18px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  border: none;
+}
+
+.sec-4 a{
+  margin: 0!important;
+}
+
+.form-group{
+  margin-bottom: 25px;
+  position: relative;
+}
+
+input:invalid:focus{
+  color: red;
 }
