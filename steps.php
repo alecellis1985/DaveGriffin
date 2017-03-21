@@ -76,16 +76,16 @@
                 <a class="button" href="javascript:;">Credit Card</a>
               </div>
               <div class="col-md-12 col-sm-6 col-xs-12">
-                <a class="button" href="http://erasedebt.co/step2.php">Mortgage</a>
+                <a class="button" href="javascript:;">Mortgage</a>
               </div>
               <div class="col-md-12 col-sm-6 col-xs-12">
-                <a class="button" href="http://erasedebt.co/step2.php">Auto</a>
+                <a class="button" href="javascript:;">Auto</a>
               </div>
               <div class="col-md-12 col-sm-6 col-xs-12">
-                <a class="button" href="http://erasedebt.co/step2.php">Student Loans</a>
+                <a class="button" href="javascript:;">Student Loans</a>
               </div>
               <div class="col-md-12 col-sm-6 col-xs-12">
-                <a class="button" href="http://erasedebt.co/step2.php">Other</a>
+                <a class="button" href="javascript:;">Other</a>
               </div>
             </div>
           </div>
@@ -121,31 +121,31 @@
                 <a class="button" href="javascript:;">0-$5,000</a>
               </div>
               <div class="col-md-12 col-sm-6 col-xs-12">
-                <a class="button" href="http://erasedebt.co/step4.php">$5,001 - $10,000</a>
+                <a class="button" href="javascript:;">$5,001 - $10,000</a>
               </div>
               <div class="col-md-12 col-sm-6 col-xs-12">
-                <a class="button" href="http://erasedebt.co/step4.php">$10,001 - $15,000</a>
+                <a class="button" href="javascript:;">$10,001 - $15,000</a>
               </div>
               <div class="col-md-12 col-sm-6 col-xs-12">
-                <a class="button" href="http://erasedebt.co/step4.php">$15,001 - $20,000</a>
+                <a class="button" href="javascript:;">$15,001 - $20,000</a>
               </div>
               <div class="col-md-12 col-sm-6 col-xs-12">
-                <a class="button" href="http://erasedebt.co/step4.php">$20,001 - $30,000</a>
+                <a class="button" href="javascript:;">$20,001 - $30,000</a>
               </div>
               <div class="col-md-12 col-sm-6 col-xs-12">
-                <a class="button" href="http://erasedebt.co/step4.php">$30,001 - $40,000</a>
+                <a class="button" href="javascript:;">$30,001 - $40,000</a>
               </div>
               <div class="col-md-12 col-sm-6 col-xs-12">
-                <a class="button" href="http://erasedebt.co/step4.php">$40,001 - $50,000</a>
+                <a class="button" href="javascript:;">$40,001 - $50,000</a>
               </div>
               <div class="col-md-12 col-sm-6 col-xs-12">
-                <a class="button" href="http://erasedebt.co/step4.php">$50,001 - $70,000</a>
+                <a class="button" href="javascript:;">$50,001 - $70,000</a>
               </div>
               <div class="col-md-12 col-sm-6 col-xs-12">
-                <a class="button" href="http://erasedebt.co/step4.php">$70,001 - $100,000</a>
+                <a class="button" href="javascript:;">$70,001 - $100,000</a>
               </div>
               <div class="col-md-12 col-sm-6 col-xs-12">
-                <a class="button" href="http://erasedebt.co/step4.php">$100,000 + </a>
+                <a class="button" href="javascript:;">$100,000 <span class="glyphicon glyphicon-plus"></span> </a>
               </div>
             </div>
           </div>

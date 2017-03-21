@@ -44,10 +44,14 @@ var debtNs = (function (states_) {
       });
       $.extend(postInfo, formObj);
       var debtarr = postInfo.Debt.replaceAll('$', '').replaceAll(',', '').split('-');
-      postInfo.Debt = (debtarr[1] - debtarr[0]) / 2;
+      if (debtarr.length < 2) {
+        postInfo.Debt = 120000;
+      } else {
+        postInfo.Debt = (debtarr[1] - debtarr[0]) / 2;
+      }
       $.ajax({
         type: "POST",
-        url: 'api/addUser',
+        url: 'api/add_user',
         data: postInfo,
         success: function (response) {
           console.log(response);
@@ -61,7 +65,6 @@ var debtNs = (function (states_) {
         $('.sec-' + (parseInt(index) + 1)).delay(1).fadeIn();
       });
     }
-    console.log(debtNs.postInfo);
   }
 
   function validateInputs(inputs) {
